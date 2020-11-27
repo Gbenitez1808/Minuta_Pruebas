@@ -1,0 +1,27 @@
++Ejemplos, (Mostrar la creacion de la carpeta Prj y como se usa)
++Subir a Git
++Explicacion o demostracion de lo inicial con Git y muestra de como se ve
++"En el examen de hoy vamos a ver"
+....
++Temario
+
+Arrancar Directo con lo de Git
+
+Definicion de repositorioUn repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información 
+digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software
+
+Como utilizarlo en el servidor? Se crea una carpeta por usuario? Como se maneja GIT?
+
+Se pueden borrar archivos y que solo suba lo que test??
+
+
+
+Cosas a tener en cuenta:
+Si subis una carpeta vacia entre los archivos que estas subiendo al repositorio Git hub no la reconoce, por lo tanto no te apareceria
+
+Una vez en la carpeta que deseamos crear el repositorio usamos la sentencia Git Add -A (-A o all)
+Para verificar si nos agrego todos los archivos solo usamos un "git status"
+Luego hacemos un Commit, que genera una copia en la nube de los cambios que hicimos localmente: 
+git commit -m "Comentario que se te de la gana"
+git log			Sirve para ver todos los commits que hayamos hecho
+git pull		Descarga todos los cambios que se hayan hecho en el repositorio
